@@ -66,7 +66,7 @@ Se incluye un diccionario de datos que describe cada tabla, sus campos, tipos de
 ## Diagrama de clases
 
 Este diagrama muestra la estructura de clases en Python y cómo se relacionan dentro de la capa de dominio:  
-![Diagrama de Clases](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20de%20Clases.jpg)
+![Diagrama de Clases](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Clases.png)
 
 ---
 
