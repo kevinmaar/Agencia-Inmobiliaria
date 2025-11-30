@@ -59,7 +59,7 @@ INQUILINO                 [DNI_INQUILINO, TEL, F_NAC, NOMBRE, APELLIDO_P, APELLI
 ### Diccionario de datos
 
 Se incluye un diccionario de datos que describe cada tabla, sus campos, tipos de datos y restricciones.
-[Ver Diccionario de Datos](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diccionario%20de%20Datos.pdf)
+[Ver Diccionario de Datos](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diccionario%20de%20datos.pdf)
 
 ---
 
