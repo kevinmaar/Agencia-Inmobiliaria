@@ -61,82 +61,32 @@ El sistema usa una base de datos relacional inicialmente gestionada con [mariaDB
 El siguiente diagrama entidad-relacion muestra cómo se relacionan las tablas de la base de datos, incluyendo llaves primarias y foráneas:  
 ![Diagrama Relacional](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Relacional.jpg)
 
-#### Modelo relacional
+### Modelo relacional
+# Modelo Relacional
 
-#### AGENCIA_INMOBILIARIA
-| Campo       | Tipo / Descripción            |
-|------------|-------------------------------|
-| ID_AGENCIA | Identificador único de la agencia |
-| RFC        | Registro Federal de Contribuyentes |
-| TELÉFONO   | Número de teléfono de la agencia |
+**AGENCIA_INMOBILIARIA**  
+ID_AGENCIA, RFC, TELÉFONO
 
-#### DIRECCION_AGENCIA
-| Campo       | Tipo / Descripción         |
-|------------|----------------------------|
-| ID_AGENCIA | Identificador de la agencia (FK) |
-| CALLE      | Calle de la agencia        |
-| NUMERO     | Número exterior            |
-| CP         | Código postal              |
-| POBLACION  | Ciudad / Población         |
+**DIRECCION_AGENCIA**  
+ID_AGENCIA (FK), CALLE, NUMERO, CP, POBLACION
 
-#### VIVIENDA
-| Campo          | Tipo / Descripción                       |
-|----------------|-----------------------------------------|
-| ID_VIVIENDA    | Identificador único de la vivienda      |
-| DESCRICIÓN     | Descripción de la vivienda               |
-| ID_AGENCIA     | Agencia propietaria (FK)                |
-| DNI_PROPIETARIO| Propietario de la vivienda (FK)         |
+**VIVIENDA**  
+ID_VIVIENDA, DESCRIPCIÓN, ID_AGENCIA (FK), DNI_PROPIETARIO (FK)
 
-#### DIRECCION_VIVIENDA
-| Campo       | Tipo / Descripción              |
-|------------|---------------------------------|
-| ID_VIVIENDA| Identificador de la vivienda (FK) |
-| CALLE      | Calle de la vivienda            |
-| NUMERO     | Número exterior                 |
-| CP         | Código postal                   |
-| POBLACION  | Ciudad / Población              |
+**DIRECCION_VIVIENDA**  
+ID_VIVIENDA (FK), CALLE, NUMERO, CP, POBLACION
 
-#### PROPIETARIO
-| Campo            | Tipo / Descripción                      |
-|-----------------|----------------------------------------|
-| DNI_PROPIETARIO  | Identificador único del propietario    |
-| TELÉFONO         | Número de teléfono                     |
-| EMAIL            | Correo electrónico                     |
-| NOMBRE           | Nombre del propietario                 |
-| APELLIDO_PATERNO | Apellido paterno                        |
-| APELLIDO_MATERNO | Apellido materno                        |
+**PROPIETARIO**  
+DNI_PROPIETARIO, TELÉFONO, EMAIL, NOMBRE, APELLIDO_PATERNO, APELLIDO_MATERNO
 
-#### DIRECCION_PROPIETARIO
-| Campo           | Tipo / Descripción                |
-|----------------|----------------------------------|
-| DNI_PROPIETARIO | Propietario (FK)                 |
-| CALLE           | Calle                             |
-| NUMERO          | Número exterior                   |
-| CP              | Código postal                     |
-| POBLACION       | Ciudad / Población                |
+**DIRECCION_PROPIETARIO**  
+DNI_PROPIETARIO (FK), CALLE, NUMERO, CP, POBLACION
 
-#### ALQUILER
-| Campo          | Tipo / Descripción                          |
-|----------------|--------------------------------------------|
-| ID_ALQUILER    | Identificador único del alquiler           |
-| FECHA_FIRMA    | Fecha de firma del contrato                 |
-| FECHA_INICIO   | Fecha de inicio del alquiler                |
-| FECHA_FIN      | Fecha de fin del alquiler                   |
-| IMPORTE_MENSUAL| Pago mensual                                |
-| FIANZA         | Depósito de garantía                        |
-| RENOVACIÓN     | Indica si hubo renovación (sí/no)          |
-| ID_VIVIENDA    | Vivienda alquilada (FK)                     |
-| DNI_INQUILINO  | Inquilino que renta (FK)                    |
+**ALQUILER**  
+ID_ALQUILER, FECHA_FIRMA, FECHA_INICIO, FECHA_FIN, IMPORTE_MENSUAL, FIANZA, RENOVACIÓN, ID_VIVIENDA (FK), DNI_INQUILINO (FK)
 
-#### INQUILINO
-| Campo            | Tipo / Descripción                     |
-|-----------------|---------------------------------------|
-| DNI_INQUILINO    | Identificador único del inquilino     |
-| TELEFONO         | Número de teléfono                     |
-| FECHA_NACIMIENTO | Fecha de nacimiento                     |
-| NOMBRE           | Nombre del inquilino                   |
-| APELLIDO_PATERNO | Apellido paterno                       |
-| APELLIDO_MATERNO | Apellido materno                       |
+**INQUILINO**  
+DNI_INQUILINO, TELEFONO, FECHA_NACIMIENTO, NOMBRE, APELLIDO_PATERNO, APELLIDO_MATERNO
 
 
 ### Diccionario de datos
