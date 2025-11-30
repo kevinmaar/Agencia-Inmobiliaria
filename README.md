@@ -19,9 +19,8 @@ Organizada por un modelo de 3 capas las cuales incluyen [dominio](https://github
 ```
 proyectoBD/
 ├─ dominio/        # Clases del modelo (Agencia, Propietario, Vivienda, etc.)
-├─ datos/          # Conexión a la base de datos y consultas SQL
-├─ ui/             # Menús y lógica de interacción con el usuario
-└─ Main.py         # Punto de entrada del programa
+├─ persistencia/   # Conexión a la base de datos y consultas SQL
+└─ ui/Main.py      # Punto de entrada del programa, menús y lógica de interacción con el usuario       
 ```
 
 ---
