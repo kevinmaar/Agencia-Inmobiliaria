@@ -56,31 +56,21 @@ python Main.py
 
 ## Base de datos
 
-El sistema usa una base de datos relacional con tablas como:
+El sistema usa una base de datos relacional inicialmente gestionada con [mariaDB](https://mariadb.org/)
 
-- AGENCIA_INMOBILIARIA  
-- DIRECCION_AGENCIA  
-- VIVIENDA  
-- PROPIETARIO  
-- DIRECCION_PROPIETARIO  
-- INQUILINO  
-- ALQUILER  
-- RENOVACION  
-
-El siguiente diagrama relacional muestra cómo se relacionan las tablas de la base de datos, incluyendo llaves primarias y foráneas:  
+El siguiente diagrama entidad-relacion muestra cómo se relacionan las tablas de la base de datos, incluyendo llaves primarias y foráneas:  
 ![Diagrama Relacional](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Relacional.jpg)
 
-## Modelo relacional
-# Modelo Relacional
+#### Modelo relacional
 
-## AGENCIA_INMOBILIARIA
+#### AGENCIA_INMOBILIARIA
 | Campo       | Tipo / Descripción            |
 |------------|-------------------------------|
 | ID_AGENCIA | Identificador único de la agencia |
 | RFC        | Registro Federal de Contribuyentes |
 | TELÉFONO   | Número de teléfono de la agencia |
 
-## DIRECCION_AGENCIA
+#### DIRECCION_AGENCIA
 | Campo       | Tipo / Descripción         |
 |------------|----------------------------|
 | ID_AGENCIA | Identificador de la agencia (FK) |
@@ -89,7 +79,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | CP         | Código postal              |
 | POBLACION  | Ciudad / Población         |
 
-## VIVIENDA
+#### VIVIENDA
 | Campo          | Tipo / Descripción                       |
 |----------------|-----------------------------------------|
 | ID_VIVIENDA    | Identificador único de la vivienda      |
@@ -97,7 +87,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | ID_AGENCIA     | Agencia propietaria (FK)                |
 | DNI_PROPIETARIO| Propietario de la vivienda (FK)         |
 
-## DIRECCION_VIVIENDA
+#### DIRECCION_VIVIENDA
 | Campo       | Tipo / Descripción              |
 |------------|---------------------------------|
 | ID_VIVIENDA| Identificador de la vivienda (FK) |
@@ -106,7 +96,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | CP         | Código postal                   |
 | POBLACION  | Ciudad / Población              |
 
-## PROPIETARIO
+#### PROPIETARIO
 | Campo            | Tipo / Descripción                      |
 |-----------------|----------------------------------------|
 | DNI_PROPIETARIO  | Identificador único del propietario    |
@@ -116,7 +106,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | APELLIDO_PATERNO | Apellido paterno                        |
 | APELLIDO_MATERNO | Apellido materno                        |
 
-## DIRECCION_PROPIETARIO
+#### DIRECCION_PROPIETARIO
 | Campo           | Tipo / Descripción                |
 |----------------|----------------------------------|
 | DNI_PROPIETARIO | Propietario (FK)                 |
@@ -125,7 +115,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | CP              | Código postal                     |
 | POBLACION       | Ciudad / Población                |
 
-## ALQUILER
+#### ALQUILER
 | Campo          | Tipo / Descripción                          |
 |----------------|--------------------------------------------|
 | ID_ALQUILER    | Identificador único del alquiler           |
@@ -138,7 +128,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | ID_VIVIENDA    | Vivienda alquilada (FK)                     |
 | DNI_INQUILINO  | Inquilino que renta (FK)                    |
 
-## INQUILINO
+#### INQUILINO
 | Campo            | Tipo / Descripción                     |
 |-----------------|---------------------------------------|
 | DNI_INQUILINO    | Identificador único del inquilino     |
@@ -149,7 +139,7 @@ El siguiente diagrama relacional muestra cómo se relacionan las tablas de la ba
 | APELLIDO_MATERNO | Apellido materno                       |
 
 
-## Diccionario de datos
+### Diccionario de datos
 
 Se incluye un diccionario de datos que describe cada tabla, sus campos, tipos de datos y restricciones.
 [Ver Diccionario de Datos](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diccionario%20de%20Datos.pdf)
