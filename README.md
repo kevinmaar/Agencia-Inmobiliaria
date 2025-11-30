@@ -6,38 +6,11 @@ Organizada por un modelo de 3 capas las cuales incluyen [dominio](https://github
 ---
 
 ## Tabla de contenido
-- [Descripción](#descripción)
-- [Características](#características)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Requisitos](#requisitos)
 - [Instalación y ejecución](#instalación-y-ejecución)
 - [Base de datos](#base-de-datos)
 - [Autor](#autor)
-
----
-
-## Descripción
-
-Este proyecto gestiona información relacionada con una agencia inmobiliaria:  
-- Agencias  
-- Propietarios  
-- Inquilinos  
-- Viviendas  
-- Direcciones  
-- Contratos de alquiler  
-- Renovaciones de alquiler  
-
-Toda la interacción se realiza mediante un menú en consola y cada módulo tiene operaciones CRUD.
-
----
-
-## Características
-
-- Menú interactivo por consola  
-- CRUD para propietarios, inquilinos, viviendas, direcciones y alquileres  
-- Consultas SQL organizadas dentro de clases  
-- Arquitectura modular por capas  
-- Fácil mantenimiento y ampliación  
 
 ---
 
@@ -101,8 +74,8 @@ La capa `datos/` contiene todas las funciones de conexión y consulta.
 
 ---
 
-## Autor
+## Autores
 
-**Kevin Marzul Jeronimo Rojano**  
-Universidad Veracruzana  
-Ingeniería de Ciberseguridad e Infraestructura de Cómputo
+**Kevin Marzul Jeronimo Rojano** 
+**Juan Elias Antonio Ramirez**
+**Raul Nava Soler**
