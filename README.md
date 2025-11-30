@@ -62,9 +62,7 @@ El siguiente diagrama entidad-relacion muestra cómo se relacionan las tablas de
 ![Diagrama Relacional](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Relacional.jpg)
 
 ### Modelo relacional
-# Modelo Relacional
-
-**AGENCIA_INMOBILIARIA**  
+'AGENCIA_INMOBILIARIA'  
 ID_AGENCIA, RFC, TELÉFONO
 
 **DIRECCION_AGENCIA**  
