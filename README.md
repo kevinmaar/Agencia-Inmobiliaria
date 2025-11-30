@@ -62,6 +62,7 @@ El siguiente diagrama entidad-relacion muestra cómo se relacionan las tablas de
 ![Diagrama Relacional](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Relacional.jpg)
 
 ### Modelo relacional
+```
 AGENCIA_INMOBILIARIA      [ID_AGENCIA, RFC, TELÉFONO]
 DIRECCION_AGENCIA         [ID_AGENCIA(FK), CALLE, NUM, CP, POBLACION]
 VIVIENDA                  [ID_VIVIENDA, DESCR, ID_AGENCIA(FK), DNI_PROPIETARIO(FK)]
@@ -70,7 +71,7 @@ PROPIETARIO               [DNI_PROPIETARIO, TEL, EMAIL, NOMBRE, APELLIDO_P, APEL
 DIRECCION_PROPIETARIO     [DNI_PROPIETARIO(FK), CALLE, NUM, CP, POBLACION]
 ALQUILER                  [ID_ALQ, FECHA_F, FECHA_I, FECHA_FIN, IMPORTE, FIANZA, RENOV, ID_VIV(FK), DNI_INQ(FK)]
 INQUILINO                 [DNI_INQUILINO, TEL, F_NAC, NOMBRE, APELLIDO_P, APELLIDO_M]
-
+```
 ### Diccionario de datos
 
 Se incluye un diccionario de datos que describe cada tabla, sus campos, tipos de datos y restricciones.
