@@ -24,8 +24,6 @@ proyectoBD/
 └─ Main.py         # Punto de entrada del programa
 ```
 
-> Nota: Las carpetas `__pycache__/` y archivos `.pyc` no deben subirse a GitHub.
-
 ---
 
 ## Requisitos
@@ -42,7 +40,7 @@ pip install mariadb
 
 1. Clonar el repositorio:
 ```bash
-git clone <URL-del-repositorio>
+git clone https://github.com/kevinmaar/Inmobiliaria-Xalapa.git
 ```
 
 2. Entrar al proyecto:
@@ -70,7 +68,8 @@ El sistema usa una base de datos relacional con tablas como:
 - ALQUILER  
 - RENOVACION  
 
-La capa `datos/` contiene todas las funciones de conexión y consulta.
+Para mayor nocion del funcionamiento, se proporciona el siguiente diagrama relacional:
+![img](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Relacional.jpg)
 
 ---
 
