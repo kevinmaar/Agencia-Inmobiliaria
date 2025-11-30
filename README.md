@@ -37,7 +37,7 @@ pip install mariadb
 
 ## Base de datos
 
-El sistema usa una base de datos relacional inicialmente gestionada con [mariaDB](https://mariadb.org/)
+El sistema utiliza una base de datos relacional gestionada con [MariaDB](https://mariadb.org/)
 
 El siguiente diagrama entidad-relacion muestra cómo se relacionan las tablas de la base de datos, incluyendo llaves primarias y foráneas:  
 ![Diagrama Relacional](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Relacional.jpg)
@@ -72,6 +72,9 @@ Este diagrama muestra la estructura de clases en Python y cómo se relacionan de
 
 ## Autores
 
-**Kevin Marzul Jeronimo Rojano** 
-**Juan Elias Antonio Ramirez**
-**Raul Nava Soler**
+## Autores
+
+- Kevin Marzul Jeronimo Rojano | [kiraaab](https://github.com/kevinmaar) 
+- Juan Elias Antonio Ramirez   | [western](https://github.com/western1258)
+- Raul Nava Soler              | [hoffman](https://github.com/Hoffman99)
+
