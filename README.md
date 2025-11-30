@@ -18,9 +18,9 @@ El proyecto está organizado en un modelo de **tres capas**: [dominio](https://g
 
 ```
 proyectoBD/
-  ├─ dominio/        # Clases del modelo (Agencia, Propietario, Vivienda, etc.)
-  ├─ persistencia/   # Conexión a la base de datos y consultas SQL
-  └─ ui/Main.py      # Punto de entrada del programa, menús y lógica de interacción con el usuario       
+├─ dominio/        # Clases del modelo (Agencia, Propietario, Vivienda, etc.)
+├─ persistencia/   # Conexión a la base de datos y consultas SQL
+└─ ui/Main.py      # Punto de entrada del programa, menús y lógica de interacción con el usuario       
 ```
 
 ---
@@ -61,14 +61,14 @@ INQUILINO                 [DNI_INQUILINO, TEL, F_NAC, NOMBRE, APELLIDO_P, APELLI
 Se incluye un diccionario de datos que describe cada tabla, sus campos, tipos de datos y restricciones.
 [Ver Diccionario de Datos](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diccionario%20de%20datos.pdf)
 
-
+---
 
 ## Estructura del codigo
 
 Este diagrama muestra la estructura de clases en Python y cómo se relacionan dentro de la capa de dominio:  
 ![Diagrama de Clases](https://github.com/kevinmaar/Inmobiliaria-Xalapa/blob/main/Documentos/Diagrama%20Clases.png)
 
-
+---
 
 ## Autores
 
