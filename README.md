@@ -33,7 +33,7 @@ Instalar MariaDB Connector para Python:
 pip install mariadb
 ```
 
-> **Importante:** Antes de ejecutar la aplicación, asegúrate de cargar la base de datos desde el archivo sql y configurar en `BD.py` la **contraseña** de tu BD, para que todas las operaciones funcionen correctamente.
+> **Importante:** Antes de ejecutar la aplicación, asegúrate de cargar la base de datos desde el archivo `BD.sql` y configurar en `BD.py` la **contraseña** de tu BD, para que todas las operaciones funcionen correctamente.
 
 ---
 
