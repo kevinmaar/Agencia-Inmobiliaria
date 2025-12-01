@@ -10,7 +10,7 @@ El proyecto está organizado en un modelo de **tres capas**: [dominio](https://g
 - [Requisitos](#requisitos)
 - [Base de datos](#base-de-datos)
 - [Estructura del codigo](#estructura-del-codigo)
-- [Autor](#autor)
+- [Autor](#autores)
 
 ---
 
