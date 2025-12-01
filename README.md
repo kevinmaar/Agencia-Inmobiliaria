@@ -1,4 +1,4 @@
-# Proyecto: Inmobiliaria Xalapa
+# Proyecto: Agencia Inmobiliaria
 
 Aplicación en **Python** para la gestión de una **agencia inmobiliaria**.  
 El proyecto está organizado en un modelo de **tres capas**: [dominio](https://github.com/kevinmaar/Inmobiliaria-Xalapa/tree/main/Proyecto/proyectoBD/dominio), [persistencia](https://github.com/kevinmaar/Inmobiliaria-Xalapa/tree/main/Proyecto/proyectoBD/persistencia) y [ui](https://github.com/kevinmaar/Inmobiliaria-Xalapa/tree/main/Proyecto/proyectoBD/ui). Incluye menús por consola y operaciones CRUD para viviendas, propietarios, inquilinos, direcciones y alquileres.
