@@ -3,10 +3,10 @@ import sys
 
 #Credenciales de la BD
 userBD = "root"
-passBD = "78927182"
+passBD = " " #contraseña de la base de datos
 hostBD = "localhost"
-portBD = 3306
-nameBD = "inmobiliaria_xalapa"
+portBD = 3306 
+nameBD = " " #nombre de la base de datos
 
 
 def conectar():
@@ -42,4 +42,5 @@ def actualizacion(instruccion, datos): #Debe usarse para comandos que modifican 
 def cerrar(BD, conexion):
     BD.close()
     conexion.close()
+
 
